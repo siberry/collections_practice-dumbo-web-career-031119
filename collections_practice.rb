@@ -18,5 +18,5 @@ def swap_elements(arr)
 end
 
 def reverse_array(arr)
-  arr.map { |x| x.to_s.reverse.to_i }
+  arr.reverse
 end
