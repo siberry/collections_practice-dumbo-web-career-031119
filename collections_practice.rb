@@ -40,5 +40,7 @@ def add_s(arr)
   arr.each_with_index.collect { |x, i|
     if i != 1
       x+"s"
+    else
+      x
     end }
 end
